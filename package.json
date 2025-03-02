@@ -1,0 +1,39 @@
+{
+  "name": "nodejs-template",
+  "version": "1.0.0",
+  "description": "An example template for the scaffolder that creates a simple Node.js service",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "format": "prettier --write .",
+    "lint": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strivly/nodejs-template.git"
+  },
+  "keywords": [
+    "Node.js",
+    "template"
+  ],
+  "author": "Walid DRIDI <wdridi1@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/strivly/nodejs-template/issues"
+  },
+  "homepage": "https://github.com/strivly/nodejs-template#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "prettier": "3.5.2",
+    "supertest": "^7.0.0"
+  }
+}
