@@ -1,4 +1,4 @@
-# nodejs-template
+# ${{ values.name }}
 
 Here's a clean and reusable Node.js Express.js blueprint for microservices. You can extend it further as needed.
 
