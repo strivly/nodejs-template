@@ -16,6 +16,7 @@ metadata:
   annotations:
     github.com/project-slug: strivly/${{ values.name }}
     lighthouse.com/website-url: https://backstage.io
+    backstage.io/adr-location: docs/adrs
   tags:
     - express
     - docker
