@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: myapp
+  description: "An Express.js application with Docker support"
+  annotations:
+    github.com/project-slug: strivly/nodejs-template
+  tags:
+    - express
+    - docker
+    - nodejs
+spec:
+  type: service
+  lifecycle: production
+  owner: team-devops
