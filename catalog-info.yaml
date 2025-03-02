@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: nodejs-template
+  name: ${{ values.name | dump }}
   description: |
     An Express.js application with Docker support.
   links:
@@ -14,7 +14,7 @@ metadata:
     - title: Discord Chat
       url: https://discord.com/invite/EBHEGzX
   annotations:
-    github.com/project-slug: strivly/nodejs-template
+    github.com/project-slug: strivly/${{ values.name | dump }}
     lighthouse.com/website-url: https://backstage.io
   tags:
     - express
